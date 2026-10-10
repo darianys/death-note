@@ -1,0 +1,128 @@
+body {
+	/*background-image: url(../imagenes/fondoDN2.jpg);*/
+	background-color: white;
+	background-size: 100%;
+	margin: 0px auto;
+}
+header {
+	background-image: url(imagenes/fondoCabecera.jpg);
+	background-size: 100%;
+	padding-top: 5%;
+
+}
+h1{
+	color: darkgrey;
+	text-shadow: 2.5px 2.5px 3px grey;
+	font-variant: small-caps;
+	direction: rtl;
+	padding: 20px;
+	font-size: 70px;
+}
+ nav ul{
+	list-style: none;
+	display: flex;
+	gap: 15%;
+	background-image: url(imagenes/fondoDN5.jpg);
+	background-size: 100%;
+	font-size: 30px;
+	font-variant: small-caps;
+	text-shadow: -2px 2px 3px maroon;
+}
+a:link{
+	text-decoration: none;
+	color: darkred;
+}
+a:visited{
+	color: orange;
+}
+a:hover{
+	color:white;
+}
+h2{
+	text-align: center;
+	margin: 30px;
+	font-size: 45px;
+	color: black;
+	text-shadow: 1.5px 2px 2.5px grey;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.introduccion p{
+	color: black;
+	text-shadow: -1px 1px 3px grey;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 20px;
+}
+.MyA p{
+	color: black;
+	text-shadow: -1px 1px 3px grey;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px;
+	
+}
+img{
+	margin: 5px; 
+	padding: 5%;
+	float: right;
+	width: 30%;
+}
+.MyA{
+	column-count: auto;
+	margin: 20px;
+}
+h3{
+	color: black;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: -1px 1px 2px darkred;
+}
+.MyA img{
+	float: right;
+	width: 17%;
+	margin: 5%;
+	box-shadow: 3px 3px 3px black;
+}
+h4{
+	color:brown;
+	margin: 10px;
+	font-size: 30px;
+	text-shadow: 1px 1px 3px black;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+#DNI{
+	column-count: 1;
+}
+#DNII{
+	column-count: 1;
+}
+#DNIII{
+	column-count: 1;
+}
+#DNIV{
+	column-count: 1;
+}
+#DNV{
+	column-count: 1;
+}
+#DNVI{
+	column-count: 1;
+}
+.MyA ul{
+	list-style-type: square;
+	color: black;
+	text-shadow: -1px 1px 3px grey;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 20px;
+}
+#ai img{
+	margin: 5px; 
+	padding: 5%;
+	float: right;
+	width: 30%;
+	box-shadow: 3px 3px 3px black;
+}
